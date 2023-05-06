@@ -1,40 +1,81 @@
-<!DOCTYPE html> <!--visar att man är i HTML-->
-<html lang="sv">   <!--säger att sidan ska vara på svenska-->
-    <head> <!--webbsidans namn-->
-        <meta charset = "utf-8">  <!--utan meta charset så riskerar man att hamna i quirk mode-->
-    <title>Webbplats</title> <!--titlen på din sidan-->
-    <link href= "style.css" rel="stylesheet" ><!--länkar html till css-->
-        <body> <!--påbörjar med innehållet-->
-            <div class= "wrapper"> <!--namnger en klass-->
-        <header> <!-- En rubrik-->
-            <h1>Meny</h1> <!--Rubriktexten-->
-        </header><!--sluttag på header-->
-
-
-            <nav> <!--Navigation som respresenterar ett avsnitt i din webbsida-->
-                <ul> <!--Skapar en ordnad lista-->
-                    <li><a href="index.html">Startsida</a> </li>
-                    <li><a href="pop.html">Pop</a></li>
-                    <li><a href="Rap.html">Rap</a></li>
-                    <li><a href="sida5.html">White Girl Music</a></li>
-                    <li><a href="Drill.html">Drill</a></li>
-                </ul> <!--Sluttagg på ul-->
-
-            </nav> <!--Sluttagg på nav-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <Title>Gitarr lektionern</Title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header><h1>Gitarrlektioner</h1></header> <!--Rubrik-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a> </li>
+                <li><a href="pop.html">Pop</a></li>
+                <li><a href="Rap.html">Rap</a></li>
+                <li><a href="WhiteGirlMusic.html">White Girl Music</a></li>
+                <li><a href="Drill.html">Drill</a></li>
+            </ul>
+        </nav>
+        <main class="Pop">
+            <section> <!-- Sectionsens inkluderar all info för en viss artist -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5_fLmbIrzLyjltOMu4UKjFesdeiTycHjPng&usqp=CAU" alt="Digga D">
+                <section>
+                    <h2>Digga D</h2>
+                    <p>Gitarrist, trummist, bassist och nästan alla andra instrument som förekommer på hans över 900 låtar</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfCMS23Wq61OUZL0dJ0cxtRFkuAWPz6tavAg&usqp=CAU" alt="Pop Smoke">
+                <section>
+                    <h3>Pop Smoke</h3>
+                    <p>Gitarrist i det Falun-baserade bandet Sabaton</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI5oU1SrNRbSWTSv5ExsYXwNvmssp8j1CBUw&usqp=CAU" alt="Unknown T">
+                <section>
+                    <h4>Unknown T </h4>
+                    <p>I över 30 år har Steven Rageblad varit gitarrist i de skånska bandet Joddla med Siv</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6LSPehmkjRhxUa0Q9N4LlWK51tMEnFBsg-g&usqp=CAU" alt="Tion Wayne">
+                <section>
+                    <h5>Tion Wayne</h5>
+                    <p>Lead gitarr i Amon Amarth</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3euDrVFqPkzHOAbTq5DvIROf-HROZBy1-wg&usqp=CAU" alt="Russ Millions">
+                <section>
+                    <h6> Russ Millions</h6>
+                    <p>James Marshall "Jimi" Hendrix var en amerikansk gitarrist, sångare och låtskrivare.</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRfJhw3n9-aMKAzCVZcN0Pft4aU0kAqVdeQ&usqp=CAU" alt="Dutchavelli">
+                <section>
+                    <h7>Dutchavelli</h7>
+                    <p> Eric Clapton är en engelsk rock- och bluesgitarrist, sångare och låtskrivare</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScsqsbZ3qxSQljWbrd4BHDAi0ldTIyL0BQDA&usqp=CAU" alt="Fredo">
+                <section>
+                    <h8>Fredo</h8>
+                    <p>Bo Fredrik Winberg, var en svensk sångare och gitarrist i bandet The Spotnicks</p>
+                </section>
+            </section>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDMbxDICIJNUr8wyYBuZsfL1mSO61BRb800A&usqp=CAU" alt="Headie One">
+                <section>
+                    <h9>Headie One</h9>
+                    <p>Geoffrey Arnold Beck,var en engelsk gitarrist. Han blev en framträdande plats som medlem i rockbandet Yardbirds och grundade och ledde sedan Jeff Beck Group och Beck.</p>
+                </section>
+            </section>
             
-            <main>   <!--Sidans huvudsakliga innehåll, ska helst inte användas mer än en gång per dokument-->
-                <section> <!--Delar in innehållet i delar-->
-               
-                
-                </section> <!--Sluttagg på section-->
-            
-            </main> <!--Sluttagg på main-->
-            <footer> <!--Representerar en sidfot -->
-                <a href = "SKriv in en länk till tex youtube här"><img src="Länka en bild här" alt="Vad det är på bilden här"></a>
-                  <!--Bild-->
-                <p>  </p>
-            </footer> <!--Sluttagg på footer-->
-            </div>
-        </body>
-        </html>
-        
+
+
+        </main>
+    </body>
+</html>

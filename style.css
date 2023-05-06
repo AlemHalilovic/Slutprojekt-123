@@ -1,4 +1,4 @@
-/*Universal styling och gridning*/
+
 body{
     background-image: linear-gradient( rgb(63, 62, 62), rgb(63, 62, 62) , rgb(63, 62, 62) , rgb(63, 62, 62) );
     background-repeat: no-repeat;
@@ -13,92 +13,35 @@ nav {
     text-align: center;
     margin-left: 0;
     
-   
-
 
 }
-nav ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    list-style: none;
- 
-}
-ul >li{
-    background-color: rgb(63, 62, 62) 
-    padding: 5px;
-}
-input{
-    margin-left: 45%;
-    margin-right: 70%;
-    text-align:center;
-    background-color:rgb(253, 253, 253);
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-img {
-    border-radius: 50%;
-  }
 
 
 
-
-
-
-main{
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding: 5%;
-}
-header{
-    text-align: center;
-    font-size: larger;
-    background-color:  rgb(63, 62, 62) 
-    margin-bottom: 0;
-    padding: 5px;
-    color black;
-}
-
-
-
-
-/*Klasser för att gridda de olika sidorna*/
-.SongBox{
+.Pop{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-main.Ikoner{
+.Pop{
     display: grid;
     grid-template-rows: 210px 210px 210px 210px;
     grid-template-columns: 1fr 1fr;
 
 
 }
-.SongsPage{
-    display: grid;
-    grid-template-rows: 250px 250px 250px 250px ;
-    margin-left: 15vw;
-    margin-right: 15vw;
-}
 
 
 
 
 
 
-/*Styling för ikoner sidan*/
-main.artister > section{
+
+main.Pop > section{
     display: grid;
     grid-template-columns: 200px 1fr;
     padding-bottom: 50px;
 }
-main.artister > section > img{
+main.Pop > section > img{
     height: 200px;
     width: 200px;
     border-radius: 100px;
@@ -106,40 +49,44 @@ main.artister > section > img{
 }
 
 
-main.artister > section p, main.artister > section h2{
+main.Pop > section p, main.Pop > section h2{
     margin-left: 20px;
 }
 
 
 
 
-
-
-
-
-
-
-/*Styling för songs sidan*/
-body > h1{
-    text-align: center;
+.Pop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-main.SongsPage > section > img{
+.Pop{
+    display: grid;
+    grid-template-rows: 210px 210px 210px 210px;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+
+
+main.Drill > section{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding-bottom: 50px;
+}
+main.Drill > section > img{
     height: 200px;
     width: 200px;
-   
+    border-radius: 100px;
+    object-fit: cover;
 }
-main.SongsPage > section{
-    display: grid;
-    grid-template-columns: 220px auto;
-    grid-template-rows: auto auto;
+
+
+main.Drill > section p, main.Drill > section h2{
+    margin-left: 20px;
 }
-main.SongsPage > section:hover .dropdownContent{
-    display: grid;
-}
-.dropdownContent{
-    display: none;
-    border: 2px white solid;
-    background-color: black;
-    z-index: 2;
-    grid-column: span 2;
-}
+
+
+
+
