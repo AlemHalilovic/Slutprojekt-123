@@ -5,7 +5,7 @@ body{
     background-size: auto;
     margin: 0%;
     color: rgb(206, 206, 206);
-    margin-left: -40px;
+    margin-left: 40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
@@ -16,10 +16,6 @@ nav {
     
 
 }
-div {
-    background-image: linear-gradient( rgb(59, 109, 150), rgb(59, 109, 150) , rgb(59, 109, 150) , rgb(59, 109, 150) );
-}
-
 
 
 .Pop{
@@ -106,3 +102,5 @@ main.Drill > section p, main.Drill > section h2{
   }
 
  
+
+  
