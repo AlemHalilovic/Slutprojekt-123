@@ -7,6 +7,7 @@ body{
     color: rgb(206, 206, 206);
     margin-left: 40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
 }
 nav {
     font-size: 30px;
