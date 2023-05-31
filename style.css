@@ -4,31 +4,15 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     margin: 0%;
-    color: rgb(206, 206, 206);
+    color: #4ADEDE, 
     margin-left: 40px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     min-height: 100vh;
+    
 }
 nav {
     font-size: 30px;
     text-align: center;
- 
-
-    
-
-}
-
-
-.Pop{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-}
-.Pop{
-    display: grid;
-    grid-template-rows: 210px 210px 210px 210px;
-    grid-template-columns: 1fr 1fr;
-
-
 }
 
 
@@ -43,25 +27,23 @@ main.Pop > section{
     padding-bottom: 50px;
 }
 main.Pop > section > img{
-    height: 200px;
-    width: 200px;
+    height: 12em;
+    width: 12em;
     border-radius: 100px;
     object-fit: cover;
     
 }
 
 
-main.Pop > section p, main.Pop > section h2{
+main.Pop  section p, main.Pop  section h2{
     margin-left: 20px;
 }
 
 
 
 
-.Pop{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
+
 .Pop{
     display: grid;
     grid-template-rows: 210px 210px 210px 210px;
