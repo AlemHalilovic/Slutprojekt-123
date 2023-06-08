@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="sv">
+<!DOCTYPE html><!--visar att man är i HTML-->
+<html lang="sv"><!--säger att sidan ska vara på svenska-->
     <head>
-        <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"><!--länkar html till css-->
         <Title>StartSida</Title>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"> <!--utan meta charset så riskerar man att hamna i quirk mode-->
     </head>
     <body>
-        
+
         <header><h1>Musik</h1></header> <!--Rubrik-->
         <nav>
             <ul>
@@ -26,12 +26,12 @@
 
             <form method="post" action="pop.html"> 
                 <label for="uname"><br>Användar namn:</label> <br/>
-                <input type="text" placeholder="Skriv in vad som helst"  name="login" id="uname" required></input><br>
+                <input type="text" placeholder="Skriv in vad som helst"  name="login" id="uname" required></input><br><!--Mitt formulär, skriv in ditt användarnamn i rutan-->
           
                 <label for="psw"><br>Lösenord:</label></br>
-                <input type="password" placeholder="Skriv in vad som helst "  name="login" id="psw" required></input><br>
+                <input type="password" placeholder="Skriv in vad som helst "  name="login" id="psw" required></input><br><!--Mitt formulär, skriv in ditt lösenord i rutan-->
                 
-                <button type="submit">Logga in</button>
+                <button type="submit">Logga in</button><!--Logga in knappen helt enkelt-->
             </form>
 
         </main>
